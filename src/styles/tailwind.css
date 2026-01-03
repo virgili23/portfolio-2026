@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* @font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+} */
+
+.btn {
+  @apply rounded-2xl bg-black text-white px-4 py-2 text-2xl font-semibold;
+}
+
+.btn-secondary {
+  @apply bg-transparent text-black;
+}
+
+.nav-link {
+  @apply text-xl font-semibold text-zinc-700;
+}
+
+h1 {
+  @apply text-6xl md:text-7xl;
+}
+h2 {
+  @apply text-3xl md:text-5xl;
+}
+h3 {
+  @apply text-2xl md:text-3xl;
+}
