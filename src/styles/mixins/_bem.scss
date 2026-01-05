@@ -1,0 +1,94 @@
+$combined-state-selectors: true !default;
+$child-separator: "__" !default;
+$modifier-separator: "--" !default;
+$state-prefix: "is" !default;
+
+@mixin block($name) {
+  .#{$name} {
+    @content;
+  }
+}
+
+// Elements (Buttons, etc...)
+@mixin element($name) {
+  .e-#{$name} {
+    @content;
+  }
+}
+
+// Subcomponent (Larger Pieces i.e. cards)
+@mixin subcomponent($name) {
+  .s-#{$name} {
+    @content;
+  }
+}
+
+// Component (Horizontal Components
+@mixin component($name) {
+  .c-#{$name} {
+    @content;
+  }
+}
+
+// Layout
+@mixin layout($name) {
+  .l-#{$name} {
+    @content;
+  }
+}
+// Color Schemes
+@mixin color-scheme($name) {
+  .cs-#{$name} {
+    @content;
+  }
+}
+
+@mixin child($name) {
+  @at-root {
+    &#{$child-separator}#{$name} {
+      @content;
+    }
+  }
+}
+
+@mixin modifier($name) {
+  @at-root {
+    &#{$modifier-separator}#{$name} {
+      @content;
+    }
+  }
+}
+
+@mixin state($state, $prefix: $state-prefix) {
+  @if $combined-state-selectors == true {
+    @at-root {
+      &.#{$prefix}-#{$state} {
+        @content;
+      }
+    }
+  } @else {
+    @at-root {
+      &#{$modifier-separator}#{$prefix}-#{$state} {
+        @content;
+      }
+    }
+  }
+}
+
+// MIXINS
+// ======
+
+// to be used when creating clases specifically meant to be extended
+// using the @extend directive
+@mixin extend-block($name) {
+  %#{$name} {
+    @content;
+  }
+}
+
+// utility block to prepend u- to utility classes
+@mixin utility($name) {
+  .u-#{$name} {
+    @content;
+  }
+}

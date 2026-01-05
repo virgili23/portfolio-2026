@@ -1,0 +1,25 @@
+// quickly apply media query
+// -----------------------------------------------------------------------------
+$breakpoints: (
+  "xs": 320px,
+  "site-min": 375px,
+  "sm": 640px,
+  "md": 768px,
+  "lg": 1024px,
+  "xl": 1280px,
+  "xxl": 1536px,
+);
+
+@mixin mq($width, $type: min) {
+  @if map-has-key($breakpoints, $width) {
+    $width: map-get($breakpoints, $width);
+
+    @if $type == max {
+      $width: $width - 1px;
+    }
+
+    @media only screen and (#{$type}-width: $width) {
+      @content;
+    }
+  }
+}

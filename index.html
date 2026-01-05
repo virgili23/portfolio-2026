@@ -8,21 +8,58 @@
   </head>
   <body>
     <main>
-      <header
-        class="l-header w-full fixed backdrop-blur z-50"
-        style="background-color: rgba(255, 255, 255, 0.5)"
-      >
-        <div class="mx-auto max-w-7xl px-6">
-          <div class="flex items-center justify-between py-2">
-            <div class="logo">
+      <header class="l-header w-full fixed z-50 bg-white">
+        <div class="l-header__container relative mx-auto max-w-7xl px-6">
+          <!-- Mobile -->
+          <div
+            class="l-header__navigation l-header__navigation--mobile flex items-center justify-between py-2 md:hidden"
+          >
+            <div class="l-header__logo">
+              <img
+                src="./public/assets/img/logo-black.png"
+                alt="logo"
+                width="60px"
+              />
+            </div>
+            <button
+              id="nav-toggle"
+              aria-expanded="false"
+              aria-label="Toggle Navigation"
+              class="md:hidden"
+            >
+              <span class="top"></span>
+              <span class="mid"></span>
+              <span class="mid2"></span>
+              <span class="bottom"></span>
+            </button>
+
+            <nav class="l-header__nav">
+              <ul class="flex flex-col gap-y-4 px-6 py-6">
+                <li>
+                  <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                  <a href="#featured" class="nav-link">Featured</a>
+                </li>
+                <li><a href="#work" class="nav-link">Work</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Desktop -->
+          <div
+            class="l-header__navigation l-header__navigation--desktop hidden md:flex items-center justify-between py-2"
+          >
+            <div class="l-header__logo">
               <img
                 src="./public/assets/img/logo-black.png"
                 alt="logo"
                 width="70px"
               />
             </div>
-            <nav>
-              <ul class="flex flex-row gap-x-4">
+            <nav class="l-header__nav">
+              <ul class="flex flex-row gap-x-6">
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#featured" class="nav-link">Featured</a></li>
                 <li><a href="#work" class="nav-link">Work</a></li>
@@ -35,33 +72,84 @@
 
       <!-- About Section -->
       <section
-        class="c-about w-full mx-auto py-16 pt-24 sm:py-24 sm:pt-36"
+        class="c-about w-full mx-auto py-16 pt-24 sm:py-24 sm:pt-36 bg-white"
         id="about"
-        style="background: rgb(220, 231, 235)"
       >
-        <div class="mx-auto flex gap-x-8 items-center max-w-6xl bg-white">
+        <div
+          class="mx-auto max-w-6xl bg-white px-6 flex flex-col items-center md:flex-row md:gap-12"
+        >
+          <h3 class="text-center md:text-left md:hidden">
+            Hello, I'm Virgilio Baez!
+          </h3>
+
           <img
-            class="rounded-4xl"
+            class="rounded-4xl bg-center md:row-span-4 md:min-w-1/3"
             src="./public/assets/img/bg-2-transparent.png"
             alt="me"
-            width="500px"
+            width="300"
           />
-          <div class="flex flex-col gap-2">
-            <h3>Hello, I'm Virgilio Baez!</h3>
-            <h1 class="leading-snug my-5">
-              Front End Engineer Based in Charlotte
+
+          <div class="flex flex-col items-center gap-4 md:items-start">
+            <h3 class="hidden md:block">Hello, I'm Virgilio Baez!</h3>
+
+            <h1
+              class="leading-tight my-5 text-center md:text-left md:leading-snug"
+            >
+              <!-- Front End Engineer Based in Charlotte -->
+              Web Engineer Based in Charlotte
             </h1>
-            <p class="mb-10 text-zinc-700 leading-loose">
+
+            <p
+              class="mb-10 text-zinc-700 leading-loose text-center md:text-left"
+            >
               I'm a product-focused developer and visual designer crafting
               clean, fast experiences on the web. My practice blends systems
               thinking, accessibility, and a love for refined interfaces. Over
               the last 7+ years I've helped startups and teams ship interfaces,
-              design systems, and high‑performance sites.
+              design systems, and high-performance sites.
             </p>
 
             <div class="e-buttons flex gap-x-2">
-              <a href="#" class="btn">See Projects</a>
-              <a href="#" class="btn btn-secondary">Contact Me</a>
+              <a href="#" class="btn">
+                See Projects
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  data-lucide="arrow-right"
+                  class="lucide lucide-arrow-right h-7 w-7 rotate-45"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </a>
+              <a href="#" class="btn btn-secondary">
+                Contact Me
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  data-lucide="send"
+                  class="lucide lucide-send h-4 w-4"
+                >
+                  <path
+                    d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"
+                  ></path>
+                  <path d="m21.854 2.147-10.94 10.939"></path>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
@@ -71,7 +159,7 @@
       <section
         class="c-featured w-full py-16 sm:py-24"
         id="featured"
-        style="background: lightgreen"
+        style="background: lightgray"
       >
         <div class="mx-auto max-w-7xl px-6">
           <div class="flex items-end justify-between">
@@ -104,9 +192,9 @@
             </a>
           </div>
 
-          <div class="mt-10 space-y-16">
+          <div class="js-featured mt-10 space-y-16">
             <!-- Case Study 1 -->
-            <article class="group">
+            <!-- <article class="s-featured group">
               <div
                 class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center"
               >
@@ -220,10 +308,10 @@
                   </div>
                 </div>
               </div>
-            </article>
+            </article> -->
 
             <!-- Case Study 2 -->
-            <article class="group">
+            <!-- <article class="s-featured group">
               <div
                 class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center"
               >
@@ -334,17 +422,13 @@
                   />
                 </a>
               </div>
-            </article>
+            </article> -->
           </div>
         </div>
       </section>
 
       <!-- Other Work -->
-      <section
-        class="c-work w-full py-16 sm:py-24"
-        id="work"
-        style="background: lightsalmon"
-      >
+      <section class="c-work w-full py-16 sm:py-24 bg-white" id="work">
         <div class="mx-auto max-w-7xl px-6">
           <div class="flex items-end justify-between">
             <h2

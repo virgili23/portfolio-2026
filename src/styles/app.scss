@@ -1,11 +1,24 @@
+@import "./mixins/bem";
+@import "./mixins/mq";
 @import "./typography";
 @import "./header";
 @import "./footer";
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 .btn {
-  @apply rounded-2xl bg-black text-white px-4 py-2;
+  @apply bg-black text-white px-4 py-2;
 }
 
 .btn-secondary {
   @apply bg-transparent text-black;
+}
+
+.btn-primary {
 }
