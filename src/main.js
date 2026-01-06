@@ -28,7 +28,13 @@ btn.addEventListener("click", () => {
   navToggle();
 });
 
+let setYear = () => {
+  const span = document.querySelector("#year");
+  span.innerHTML = new Date().getFullYear();
+};
+
 document.addEventListener("DOMContentLoaded", () => {
   featuredSection();
   workSection();
+  setYear();
 });

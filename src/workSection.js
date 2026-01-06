@@ -3,7 +3,7 @@ import workData from "./data/workData.json";
 export default function featuredSection() {
   const workSection = document.querySelector(".js-work");
 
-  console.log(workData);
+  //   console.log(workData);
 
   workSection.innerHTML = workData
     .map(

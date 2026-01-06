@@ -18,7 +18,7 @@
               <img
                 src="./public/assets/img/logo-black.png"
                 alt="logo"
-                width="60px"
+                width="50px"
               />
             </div>
             <button
@@ -59,7 +59,7 @@
               <img
                 src="./public/assets/img/logo-black.png"
                 alt="logo"
-                width="70px"
+                width="60px"
               />
             </div>
             <nav class="l-header__nav">
@@ -80,41 +80,42 @@
 
       <!-- About Section -->
       <section
-        class="c-about w-full mx-auto py-16 pt-24 sm:py-24 sm:pt-36 bg-white"
+        class="c-about w-full mx-auto py-16 pt-24 sm:py-24 sm:pt-36 bg-white overflow-x-hidden"
         id="about"
       >
         <div
-          class="mx-auto max-w-6xl bg-white px-6 flex flex-col items-center md:flex-row md:gap-12"
+          class="c-about__container relative mx-auto max-w-6xl bg-white px-6 flex flex-col items-center md:flex-row md:gap-12"
         >
-          <h3 class="text-center md:text-left md:hidden">
+          <h3 class="relative text-center md:text-left md:hidden">
             Hello, I'm Virgilio Baez!
           </h3>
 
           <img
-            class="rounded-4xl bg-center md:row-span-4 md:min-w-1/3"
+            class="relative rounded-4xl bg-center md:row-span-4 md:min-w-1/3"
             src="./public/assets/img/bg-2-transparent.png"
             alt="me"
             width="300"
           />
 
-          <div class="flex flex-col items-center gap-4 md:items-start">
+          <div
+            class="relative c-about__desc flex flex-col items-center gap-4 md:items-start"
+          >
             <h3 class="hidden md:block">Hello, I'm Virgilio Baez!</h3>
 
             <h1
-              class="leading-tight my-5 text-center md:text-left md:leading-snug"
+              class="leading-none my-1 text-center md:text-left md:leading-snug"
             >
-              <!-- Front End Engineer Based in Charlotte -->
-              Web Engineer Based in Charlotte
+              Front End Engineer Based in Charlotte
             </h1>
 
             <p
               class="mb-10 text-zinc-700 leading-loose text-center md:text-left"
             >
-              I'm a product-focused developer and visual designer crafting
-              clean, fast experiences on the web. My practice blends systems
-              thinking, accessibility, and a love for refined interfaces. Over
-              the last 7+ years I've helped startups and teams ship interfaces,
-              design systems, and high-performance sites.
+              I'm a product-focused front-end engineer specializing in modern
+              JavaScript, CSS, performance-driven UI, and CMS-powered solutions
+              across WordPress, Shopify, and email marketing. With 6 years of
+              experience, I help teams ship high-performance, conversion-focused
+              interfaces in production environments.
             </p>
 
             <div class="e-buttons flex gap-x-2">
@@ -277,7 +278,7 @@
                 <!-- Github -->
                 <a
                   href="https://github.com/virgili23"
-                  class="inline-flex h-9 w-9 items-center justify-center rounded-md border border-zinc-300 bg-white text-zinc-700 hover:text-zinc-900 dark:border-zinc-700 dark:bg-black dark:text-zinc-300 dark:hover:text-white"
+                  class="footer-nav-link"
                   target="_blank"
                 >
                   <svg
@@ -302,7 +303,7 @@
                 <!-- LinkedIn -->
                 <a
                   href="https://www.linkedin.com/in/virgilio-baez/"
-                  class="inline-flex h-9 w-9 items-center justify-center rounded-md border border-zinc-300 bg-white text-zinc-700 hover:text-zinc-900 dark:border-zinc-700 dark:bg-black dark:text-zinc-300 dark:hover:text-white"
+                  class="footer-nav-link"
                   target="_blank"
                 >
                   <svg
@@ -328,7 +329,7 @@
                 <!-- Email -->
                 <a
                   href="mailto:v.alberto.baez@gmail.com"
-                  class="inline-flex h-9 w-9 items-center justify-center rounded-md border border-zinc-300 bg-white text-zinc-700 hover:text-zinc-900 dark:border-zinc-700 dark:bg-black dark:text-zinc-300 dark:hover:text-white"
+                  class="footer-nav-link"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -428,7 +429,7 @@
             class="l-footer__bottom mt-12 pt-6 text-xs flex items-center justify-between border-t dark:border-white"
           >
             <span class="dark:text-zinc-100"
-              >© <span id="year">2026</span> Virgilio Baez</span
+              >&copy; <span id="year"></span> Virgilio Baez</span
             >
             <span class="dark:text-zinc-100">Crafted with intention.</span>
           </div>
