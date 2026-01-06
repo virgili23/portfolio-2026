@@ -1,6 +1,7 @@
 import "./styles/tailwind.css";
 import "./styles/app.scss";
 import featuredSection from "./featuredSection";
+import workSection from "./workSection";
 
 const btn = document.querySelector("#nav-toggle");
 
@@ -29,4 +30,5 @@ btn.addEventListener("click", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   featuredSection();
+  workSection();
 });

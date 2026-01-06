@@ -1,11 +1,11 @@
 import featuredData from "./data/featuredData.json";
 
 export default function featuredSection() {
-  let featured = document.querySelector(".js-featured");
+  const featuredSection = document.querySelector(".js-featured");
 
-  console.log(featuredData);
+  // console.log(featuredData);
 
-  featured.innerHTML = featuredData
+  featuredSection.innerHTML = featuredData
     .map(
       (data) =>
         `
