@@ -1,14 +1,36 @@
 [
   {
     "title": "Project 1",
-    "tags": ["Tag 1", "tag 2"],
-    "description": "Designed and implemented a comprehensive marketing automation platform using HubSpot, creating triggered email sequences that resulted in a 300% increase in email engagement and 45% improvement in lead conversion rates. The solution included responsive email templates, A/B testing workflows, and advanced segmentation strategies. Integration with Salesforce CRM ensured seamless lead handoff and tracking throughout the customer journey.",
-    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop"
+    "link": "https://google.com",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop",
+    "tags": ["Tag 1", "tag 2", "tag 3"],
+    "description": "Designed and implemented a comprehensive marketing automation platform using HubSpot, creating triggered email sequences that resulted in a 300% increase in email engagement and 45% improvement in lead conversion rates. <br/><br>The solution included responsive email templates, A/B testing workflows, and advanced segmentation strategies. Integration with Salesforce CRM ensured seamless lead handoff and tracking throughout the customer journey.",
+    "stats": [
+      {
+        "stat": "300% Engagement",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-lucide='trending-up' class='lucide lucide-trending-up h-4 w-4'><path d='M16 7h6v6'></path><path d='m22 7-8.5 8.5-5-5L2 17'></path></svg>"
+      },
+      {
+        "stat": "45% Conversion",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-lucide='users' class='lucide lucide-users h-4 w-4'><path d='M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'></path><path d='M16 3.128a4 4 0 0 1 0 7.744'></path><path d='M22 21v-2a4 4 0 0 0-3-3.87'></path><circle cx='9' cy='7' r='4'></circle></svg>"
+      }
+    ]
   },
   {
-    "title": "Project 2",
-    "tags": ["Tag 3", "tag 4"],
-    "description": "Designed and implemented a comprehensive marketing automation platform using HubSpot, creating triggered email sequences that resulted in a 300% increase in email engagement and 45% improvement in lead conversion rates. The solution included responsive email templates, A/B testing workflows, and advanced segmentation strategies. Integration with Salesforce CRM ensured seamless lead handoff and tracking throughout the customer journey.",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop"
+    "title": "Flow Builder: 300% Email Engagement Increase",
+    "link": "https://google.com",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
+    "tags": ["Marketing Automation", "Email Campaigns"],
+    "description": "Designed and implemented a comprehensive marketing automation platform using HubSpot, creating triggered email sequences that resulted in a 300% increase in email engagement and 45% improvement in lead conversion rates. <br/><br>The solution included responsive email templates, A/B testing workflows, and advanced segmentation strategies. Integration with Salesforce CRM ensured seamless lead handoff and tracking throughout the customer journey.",
+    "stats": [
+      {
+        "stat": "300% Engagement",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-lucide='trending-up' class='lucide lucide-trending-up h-4 w-4'><path d='M16 7h6v6'></path><path d='m22 7-8.5 8.5-5-5L2 17'></path></svg>"
+      },
+      {
+        "stat": "45% Conversion",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-lucide='users' class='lucide lucide-users h-4 w-4'><path d='M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'></path><path d='M16 3.128a4 4 0 0 1 0 7.744'></path><path d='M22 21v-2a4 4 0 0 0-3-3.87'></path><circle cx='9' cy='7' r='4'></circle></svg>"
+      }
+    ]
   }
 ]
