@@ -9,11 +9,15 @@
 } */
 
 .btn {
-  @apply bg-black text-white flex gap-x-2 justify-center items-center px-6 py-3 text-xl font-semibold leading-none;
+  @apply relative z-10 bg-black text-white flex gap-x-2 justify-center items-center px-4 py-2 text-sm font-medium leading-none;
+}
+
+.btn-large {
+  @apply px-6 py-3 text-xl font-semibold;
 }
 
 .btn-secondary {
-  @apply bg-transparent text-black;
+  @apply duration-200 bg-transparent text-black border-2 border-black transition-colors hover:bg-black hover:text-white;
 }
 
 .nav-link {
