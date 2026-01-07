@@ -15,20 +15,23 @@
       right: 40px;
       z-index: 0;
     }
-    &:after {
-      content: "";
-      position: absolute;
-      aspect-ratio: 442/225;
-      mask: url("../../public/assets/img/swoosh-1.svg");
-      mask-repeat: no-repeat;
-      background-color: $dark-gray;
-      mask-size: 170px;
-      width: 170px;
-      height: auto;
-      bottom: 0;
-      left: -40px;
-      z-index: 0;
-      transform: rotate(40deg);
+
+    @include mq("md") {
+      &:after {
+        content: "";
+        position: absolute;
+        aspect-ratio: 442/225;
+        mask: url("../../public/assets/img/swoosh-1.svg");
+        mask-repeat: no-repeat;
+        background-color: $dark-gray;
+        mask-size: 170px;
+        width: 170px;
+        height: auto;
+        bottom: 0;
+        left: -40px;
+        z-index: 0;
+        transform: rotate(40deg);
+      }
     }
   }
 }

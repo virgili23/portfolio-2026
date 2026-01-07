@@ -66,7 +66,7 @@ export default function featuredSection() {
                 ></path>
             </svg>
           </a>
-          <div class="flex items-center gap-4 text-sm text-zinc-500">
+          <div class="flex items-center gap-4 text-sm text-black">
             ${data.stats
               .map(
                 (tag) =>

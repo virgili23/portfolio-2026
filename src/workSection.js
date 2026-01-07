@@ -46,7 +46,7 @@ export default function featuredSection() {
                 <div class="mt-4 flex items-center justify-between">
                     <a
                     href="${data.link}"
-                    class="inline-flex items-center btn btn-tertiary ml-1 gap-1.5 text-sm font-medium text-zinc-900"
+                    class="inline-flex items-center btn btn-tertiary ml-1 gap-1.5 text-sm font-medium text-black"
                     target="_blank"
                     >
                     <span>visit site</span>
@@ -74,10 +74,10 @@ export default function featuredSection() {
                     ${
                       data.github
                         ? `
-                        <div class="flex items-center gap-2 text-zinc-500">
+                        <div class="flex items-center gap-2">
                             <a
                             href="${data.github}"
-                            class="inline-flex items-center btn btn-tertiary gap-1.5 text-sm font-medium text-zinc-900"
+                            class="inline-flex items-center btn btn-tertiary gap-1.5 text-sm font-medium text-black"
                             target="_blank"
                             >
                             <span>github repo</span>
@@ -104,10 +104,6 @@ export default function featuredSection() {
                         `
                         : ""
                     }
-
-
-
-
 
                 </div>
             </div>
