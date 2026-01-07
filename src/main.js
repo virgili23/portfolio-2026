@@ -2,6 +2,7 @@ import "./styles/tailwind.css";
 import "./styles/app.scss";
 import featuredSection from "./featuredSection";
 import workSection from "./workSection";
+import scrollSpy from "./scrollSpy";
 
 const btn = document.querySelector("#nav-toggle");
 
@@ -37,4 +38,5 @@ document.addEventListener("DOMContentLoaded", () => {
   featuredSection();
   workSection();
   setYear();
+  scrollSpy();
 });

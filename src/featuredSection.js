@@ -13,7 +13,7 @@ export default function featuredSection() {
       <div class="s-featured__container grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         <a
         href="${data.link}"
-        class="s-featured__image group relative overflow-hidden rounded-xs border border-zinc-700 bg-white aspect-[4/3] block"
+        class="s-featured__image group relative overflow-hidden border-2 border-zinc-700 bg-white aspect-[4/3] block"
         target="_blank"
         onclick="posthog?.capture('case_study_clicked', {case_study_name: 'Flow Builder', click_type: 'image'});">
           <img
@@ -41,7 +41,7 @@ export default function featuredSection() {
           <div class="flex flex-wrap items-center gap-4">
           <a
             href="${data.link}"
-            class="btn btn-primary inline-flex items-center gap-2 text-sm font-medium text-zinc-900 hover:opacity-80"
+            class="btn btn-primary inline-flex items-center gap-2 text-sm font-medium"
             onclick="posthog?.capture('case_study_clicked', {case_study_name: 'Flow Builder', click_type: 'button'});"
             target="_blank"
           >

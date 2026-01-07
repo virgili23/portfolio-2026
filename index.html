@@ -63,10 +63,18 @@
               />
             </div>
             <nav class="l-header__nav">
-              <ul class="flex flex-row gap-x-6">
-                <li><a href="#about" class="nav-link">about</a></li>
-                <li><a href="#featured" class="nav-link">featured</a></li>
-                <li><a href="#work" class="nav-link">work</a></li>
+              <ul class="flex flex-row gap-x-10">
+                <li>
+                  <a href="#about" class="nav-link" data-nav="about">about</a>
+                </li>
+                <li>
+                  <a href="#featured" class="nav-link" data-nav="featured"
+                    >featured</a
+                  >
+                </li>
+                <li>
+                  <a href="#work" class="nav-link" data-nav="work">work</a>
+                </li>
                 <li>
                   <a href="mailto:v.alberto.baez@gmail.com" class="nav-link"
                     >contact</a
@@ -80,8 +88,9 @@
 
       <!-- About Section -->
       <section
-        class="c-about w-full mx-auto py-16 pt-24 sm:py-24 sm:pt-36 bg-white overflow-x-hidden"
+        class="c-about w-full mx-auto py-16 pt-24 sm:py-36 sm:pt-48 bg-white overflow-x-hidden"
         id="about"
+        data-section="about"
       >
         <div
           class="c-about__container relative mx-auto max-w-6xl bg-white px-6 flex flex-col items-center md:flex-row md:gap-12"
@@ -171,6 +180,7 @@
       <section
         id="featured"
         class="c-featured w-full py-16 sm:py-24 bg-zinc-50"
+        data-section="featured"
       >
         <div class="c-featured__container mx-auto max-w-7xl px-6">
           <div class="c-featured__head flex items-center justify-between">
@@ -209,7 +219,11 @@
       </section>
 
       <!-- Other Work -->
-      <section id="work" class="c-work w-full py-16 sm:py-24 bg-white">
+      <section
+        id="work"
+        class="c-work w-full py-16 sm:py-24 bg-white"
+        data-section="work"
+      >
         <div class="c-work__container mx-auto max-w-7xl px-6">
           <div class="c-work__head flex items-center justify-between">
             <h2
@@ -271,13 +285,14 @@
                 precision and care.
               </p>
 
+              <!-- Footer Socials -->
               <div
                 class="l-footer__socials__links mt-4 flex items-center gap-3"
               >
                 <!-- Github -->
                 <a
                   href="https://github.com/virgili23"
-                  class="footer-nav-link"
+                  class="footer-social-link"
                   target="_blank"
                 >
                   <svg
@@ -302,7 +317,7 @@
                 <!-- LinkedIn -->
                 <a
                   href="https://www.linkedin.com/in/virgilio-baez/"
-                  class="footer-nav-link"
+                  class="footer-social-link"
                   target="_blank"
                 >
                   <svg
@@ -328,7 +343,7 @@
                 <!-- Email -->
                 <a
                   href="mailto:v.alberto.baez@gmail.com"
-                  class="footer-nav-link"
+                  class="footer-social-link"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -358,30 +373,26 @@
               </h4>
               <ul class="mt-4 space-y-2 text-sm text-zinc-600">
                 <li>
-                  <a
-                    href="#about"
-                    class="hover:text-zinc-900 dark:text-zinc-100 hover:dark:text-white"
+                  <a href="#about" class="dark:text-white hover:dark:underline"
                     >About</a
                   >
                 </li>
                 <li>
                   <a
                     href="#featured"
-                    class="hover:text-zinc-900 dark:text-zinc-100 hover:dark:text-white"
+                    class="dark:text-white hover:dark:underline"
                     >Featured</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="#work"
-                    class="hover:text-zinc-900 dark:text-zinc-100 hover:dark:text-white"
+                  <a href="#work" class="dark:text-white hover:dark:underline"
                     >Work</a
                   >
                 </li>
                 <li>
                   <a
                     href="mailto:v.alberto.baez@gmail.com"
-                    class="hover:text-zinc-900 dark:text-zinc-100 hover:dark:text-white"
+                    class="dark:text-white hover:dark:underline"
                     >Contact</a
                   >
                 </li>
@@ -399,8 +410,9 @@
               </p>
               <a
                 href="mailto:v.alberto.baez@gmail.com"
-                class="mt-4 inline-flex items-center gap-2 rounded-md bg-zinc-900 px-4 py-2.5 text-white text-sm font-medium tracking-tight hover:bg-black transition dark:bg-zinc-100 dark:text-zinc-900 dark:hover:text-black dark:hover:bg-white"
+                class="mt-4 inline-flex items-center gap-2 bg-zinc-900 px-4 py-2.5 text-white text-sm font-medium tracking-tight hover:bg-black transition-all duration-200 dark:bg-bg dark:text-white dark:hover:text-black dark:hover:bg-white"
               >
+                <span>Contact Me</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -419,7 +431,6 @@
                   ></path>
                   <path d="m21.854 2.147-10.94 10.939"></path>
                 </svg>
-                <span>Email v.alberto.baez@gmail.com</span>
               </a>
             </div>
           </div>

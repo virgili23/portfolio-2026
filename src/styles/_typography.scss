@@ -2,6 +2,7 @@
 
 // Colors
 $green: #00e19f;
+$dark-gray: #3f3f47;
 
 // Fonts
 $inter: "Inter", sans-serif;
@@ -63,6 +64,75 @@ $btn-offset: 6px;
   svg {
     path {
       stroke: $green;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    top: 0;
+    left: 0;
+    &:after {
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+.btn-secondary {
+  overflow-x: hidden;
+  &:before {
+    content: "";
+    position: absolute;
+    transition: all linear 250ms;
+    background-color: #000;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  &:hover,
+  &:focus {
+    color: #fff;
+    &:before {
+      left: 0;
+    }
+  }
+}
+
+.btn-tertiary {
+  top: -$btn-offset + 3;
+  left: -$btn-offset + 3;
+  transition: all linear 200ms;
+  color: #000;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: $btn-offset - 3;
+    left: $btn-offset - 3;
+    z-index: -2;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+    transition: all linear 200ms;
+  }
+  svg {
+    path {
+      stroke: #000;
     }
   }
 

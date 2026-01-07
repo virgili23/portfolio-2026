@@ -86,4 +86,24 @@
       }
     }
   }
+
+  .nav-link {
+    &:before {
+      content: "";
+      position: absolute;
+      transition: all linear 200ms;
+      top: calc(50% + 2px);
+      transform: translateY(-50%);
+      left: -20px;
+      border-radius: 100px;
+    }
+    &.is-active {
+      color: #333;
+      &:before {
+        background-color: $green;
+        width: 10px;
+        height: 10px;
+      }
+    }
+  }
 }
