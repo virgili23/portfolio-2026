@@ -2,7 +2,7 @@
   {
     "title": "StateFarm Center: Ticketing &amp; Event CMS Platform",
     "link": "https://www.statefarmcenter.com/",
-    "image": "./public/assets/img/sites/statefarm-featured.jpg",
+    "image": "./assets/img/sites/statefarm-featured.jpg",
     "tags": [
       "Front-End Development",
       "CMS",
@@ -34,7 +34,7 @@
   {
     "title": "Metro HC Air Services: SEO-Driven WordPress CMS",
     "link": "https://www.metrohc.com/",
-    "image": "./public/assets/img/sites/mhc-featured.jpg",
+    "image": "./assets/img/sites/mhc-featured.jpg",
     "tags": [
       "WordPress",
       "CMS",

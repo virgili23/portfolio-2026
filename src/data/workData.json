@@ -2,42 +2,42 @@
   {
     "title": "Elite Team Realty",
     "link": "https://elite-team-realty.com/",
-    "image": "./public/assets/img/sites/etr.jpg",
+    "image": "./assets/img/sites/etr.jpg",
     "tags": ["CMS", "Front-End", "SCSS", "Javascript", "Alpine.js"],
     "description": "Developed reusable front-end components using SCSS and JavaScript, including interactive UI elements."
   },
   {
     "title": "Liacouras Center",
     "link": "https://www.liacourascenter.com/",
-    "image": "./public/assets/img/sites/liacouras.jpg",
+    "image": "./assets/img/sites/liacouras.jpg",
     "tags": ["CMS", "Front-End", "Responsive", "Event Listings"],
     "description": "Implemented responsive event listing and event detail templates supporting high-volume event content."
   },
   {
     "title": "Palace Theatre",
     "link": "https://www.palacestamford.org/",
-    "image": "./public/assets/img/sites/palacestamford.jpg",
+    "image": "./assets/img/sites/palacestamford.jpg",
     "tags": ["CMS", "Front-End", "Responsive", "Performance"],
     "description": "Built reusable UI components with performance-conscious front-end delivery."
   },
   {
     "title": "Allen County War Coliseum",
     "link": "https://www.memorialcoliseum.com/",
-    "image": "./public/assets/img/sites/memorialcoliseum.jpg",
+    "image": "./assets/img/sites/memorialcoliseum.jpg",
     "tags": ["CMS", "Front-End", "Responsive", "Architecture"],
     "description": "Implemented maintainable CMS templates focused on accessibility and layout consistency."
   },
   {
     "title": "Mullins Center",
     "link": "https://www.thesonnentag.com/",
-    "image": "./public/assets/img/sites/mullins.jpg",
+    "image": "./assets/img/sites/mullins.jpg",
     "tags": ["CMS", "Front-End", "Responsive", "Accessibility"],
     "description": "Delivered accessible, responsive layouts within a legacy CMS environment."
   },
   {
     "title": "The Sonnentag",
     "link": "https://www.thesonnentag.com/",
-    "image": "./public/assets/img/sites/sonnentag.jpg",
+    "image": "./assets/img/sites/sonnentag.jpg",
     "tags": ["CMS", "Front-End", "Responsive", "SCSS"],
     "description": "Built a CMS-driven venue website using modular SCSS and reusable components to support venue-specific layouts and event promotion."
   }
