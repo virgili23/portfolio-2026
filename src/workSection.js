@@ -12,7 +12,7 @@ export default function featuredSection() {
   workSection.innerHTML = workData
     .map(
       (data) => `
-            <article class="s-work bg-white overflow-hidden">
+            <article class="s-work bg-white overflow-hidden flex flex-col h-full">
             <a
             href="${data.link}"
             target="_blank"
@@ -23,10 +23,10 @@ export default function featuredSection() {
                 <img
                     src="${data.image}"
                     alt="3D render"
-                    class="w-full h-full object-cover scale-[1.01] transition duration-400 group-hover:scale-[1.03]"
+                    class="w-full h-full object-cover scale-[1.01] transition duration-400 group-hover:scale-[1.03] group-hover:grayscale-90"
                 />
             </a>
-            <div class="s-work__desc py-5">
+            <div class="s-work__desc flex flex-col grow py-5">
                 <div class="flex items-center flex-wrap gap-2">
                 ${data.tags
                   .map(
@@ -39,15 +39,15 @@ export default function featuredSection() {
                     href="${data.link}"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="mt-3 text-lg font-semibold tracking-tight block hover:text-zinc-600 transition"
+                    class="mt-3 text-lg font-semibold tracking-tight block transition-all duration-200 hover:pl-4"
                     onclick="posthog?.capture('project_clicked', {project_name: 'Orbit UI', project_type: 'title'});"
                 >
                     <h3>${data.title}</h3>
                 </a>
-                <p class="mt-2 text-sm text-zinc-600">
+                <p class="mt-2 mb-4 text-sm text-zinc-600">
                     ${data.description}
                 </p>
-                <div class="mt-4 flex items-center justify-between">
+                <div class="mt-auto flex items-center justify-between">
                     <a
                     href="${data.link}"
                     class="inline-flex items-center btn btn-tertiary ml-1 gap-1.5 text-sm font-medium text-black"

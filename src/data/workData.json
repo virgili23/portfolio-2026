@@ -14,7 +14,7 @@
     "description": "Implemented responsive event listing and event detail templates supporting high-volume event content."
   },
   {
-    "title": "Palace Stamford Theatre",
+    "title": "Palace Theatre",
     "link": "https://www.palacestamford.org/",
     "image": "./public/assets/img/sites/palacestamford.jpg",
     "tags": ["CMS", "Front-End", "Responsive", "Performance"],
