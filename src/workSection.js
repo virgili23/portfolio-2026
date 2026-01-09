@@ -18,7 +18,9 @@ export default function featuredSection() {
             target="_blank"
             rel="noopener noreferrer"
             class="s-work__image relative group overflow-hidden border-2 border-zinc-700 aspect-[2/2] block"
-            onclick="posthog?.capture('project_clicked', {project_name: 'Orbit UI', project_type: 'image'});"
+            onclick="posthog?.capture('project_clicked', {project_name: '${
+              data.title
+            }', project_type: 'image'});"
             >
                 <img
                     src="${data.image}"
@@ -40,7 +42,9 @@ export default function featuredSection() {
                     target="_blank"
                     rel="noopener noreferrer"
                     class="mt-3 text-lg font-semibold tracking-tight block transition-all duration-200 hover:pl-4"
-                    onclick="posthog?.capture('project_clicked', {project_name: 'Orbit UI', project_type: 'title'});"
+                    onclick="posthog?.capture('project_clicked', {project_name: '${
+                      data.title
+                    }', project_type: 'title'});"
                 >
                     <h3>${data.title}</h3>
                 </a>

@@ -24,7 +24,9 @@ export default function featuredSection() {
           href="${data.link}"
           class="group relative overflow-hidden border-2 border-zinc-700 bg-white aspect-[4/3] block"
           target="_blank"
-          onclick="posthog?.capture('case_study_clicked', {case_study_name: 'Flow Builder', click_type: 'image'});">
+          onclick="posthog?.capture('case_study_clicked', {case_study_name: '${
+            data.title
+          }', click_type: 'image'});">
             <img
             src="${data.image}"
             alt="thumbnail"
@@ -71,7 +73,9 @@ export default function featuredSection() {
             <a
               href="${data.link}"
               class="btn btn-primary inline-flex items-center gap-2 text-sm font-medium"
-              onclick="posthog?.capture('case_study_clicked', {case_study_name: 'Flow Builder', click_type: 'button'});"
+              onclick="posthog?.capture('case_study_clicked', {case_study_name: '${
+                data.title
+              }', click_type: 'button'});"
               target="_blank"
             >
               <span>visit site</span>
