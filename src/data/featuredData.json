@@ -1,34 +1,73 @@
 [
   {
-    "title": "Project 1",
-    "link": "https://google.com",
-    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop",
-    "tags": ["Tag 1", "tag 2", "tag 3"],
-    "description": "Designed and implemented a comprehensive marketing automation platform using HubSpot, creating triggered email sequences that resulted in a 300% increase in email engagement and 45% improvement in lead conversion rates. <br/><br>The solution included responsive email templates, A/B testing workflows, and advanced segmentation strategies. Integration with Salesforce CRM ensured seamless lead handoff and tracking throughout the customer journey.",
-    "stats": [
+    "title": "StateFarm Center — Ticketing &amp; Event CMS Platform",
+    "link": "https://www.statefarmcenter.com/",
+    "image": "./public/assets/img/sites/statefarm-featured.jpg",
+    "tags": [
+      "Front-End Development",
+      "CMS",
+      "A11y / Accessibility",
+      "Performance",
+      "Modular CSS",
+      "Legacy Systems"
+    ],
+    "tech": ["PHP", "SCSS / CSS", "JavaScript", "Accessibility", "Performance"],
+    "description": "Sole front-end engineer responsible for building a CMS-driven marketing and ticketing platform for a large entertainment venue. Owned front-end development from design handoff through responsive implementation, accessibility improvements, and cross-browser QA within a legacy PHP/CodeIgniter environment.<br/><br/>Extended and adapted a modular SCSS architecture to support venue-specific layouts, branding requirements, and complex homepage and event presentation patterns.",
+    "contributions": [
+      "Led end-to-end front-end development across multiple production sprints",
+      "Designed modular, reusable SCSS components and layout systems",
+      "Built responsive event listing, event detail, and homepage templates",
+      "Implemented accessibility and cross-browser improvements within a legacy CMS"
+    ],
+    "outcome": [
+      "Delivered a production-ready CMS and ticketing platform",
+      "Improved maintainability, accessibility, and responsive consistency",
+      "Reduced design-to-development friction through structured handoff"
+    ],
+    "role": [
       {
-        "stat": "300% Engagement",
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-lucide='trending-up' class='lucide lucide-trending-up h-4 w-4'><path d='M16 7h6v6'></path><path d='m22 7-8.5 8.5-5-5L2 17'></path></svg>"
-      },
-      {
-        "stat": "45% Conversion",
+        "position": "Front-End Engineer",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-lucide='users' class='lucide lucide-users h-4 w-4'><path d='M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'></path><path d='M16 3.128a4 4 0 0 1 0 7.744'></path><path d='M22 21v-2a4 4 0 0 0-3-3.87'></path><circle cx='9' cy='7' r='4'></circle></svg>"
       }
     ]
   },
   {
-    "title": "Flow Builder: 300% Email Engagement Increase",
-    "link": "https://google.com",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
-    "tags": ["Marketing Automation", "Email Campaigns"],
-    "description": "Designed and implemented a comprehensive marketing automation platform using HubSpot, creating triggered email sequences that resulted in a 300% increase in email engagement and 45% improvement in lead conversion rates. <br/><br>The solution included responsive email templates, A/B testing workflows, and advanced segmentation strategies. Integration with Salesforce CRM ensured seamless lead handoff and tracking throughout the customer journey.",
-    "stats": [
+    "title": "Metro HC Air Services — SEO-Driven WordPress CMS",
+    "link": "https://www.metrohc.com/",
+    "image": "./public/assets/img/sites/mhc-featured.jpg",
+    "tags": [
+      "WordPress",
+      "CMS",
+      "Performance",
+      "SEO",
+      "ACF",
+      "Gravity Forms",
+      "Core Web Vitals"
+    ],
+    "tech": [
+      "WordPress",
+      "PHP",
+      "SCSS / CSS",
+      "JavaScript",
+      "ACF",
+      "Gravity Forms",
+      "Performance"
+    ],
+    "description": "Front-end and WordPress developer contributing to the build and ongoing maintenance of a WordPress CMS supporting SEO-driven content growth for a home services brand. Owned front-end templates, CMS components, and form integrations while collaborating with a dedicated development team.<br/><br/>Built ACF-powered templates and integrated Gravity Forms with custom styling, routing, and tracking logic. Supported Core Web Vitals and site-speed initiatives through template optimization and performance tooling.",
+    "contributions": [
+      "Built scalable WordPress templates and ACF-powered components",
+      "Integrated Gravity Forms with custom routing and tracking",
+      "Implemented responsive layouts and accessibility improvements",
+      "Supported performance and Core Web Vitals optimization"
+    ],
+    "outcome": [
+      "Enabled non-technical editors to manage SEO-focused content",
+      "Improved accessibility, readability, and mobile responsiveness",
+      "Supported SEO and performance goals through optimized templates"
+    ],
+    "role": [
       {
-        "stat": "300% Engagement",
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-lucide='trending-up' class='lucide lucide-trending-up h-4 w-4'><path d='M16 7h6v6'></path><path d='m22 7-8.5 8.5-5-5L2 17'></path></svg>"
-      },
-      {
-        "stat": "45% Conversion",
+        "position": "Front-End / Wordpress Developer",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-lucide='users' class='lucide lucide-users h-4 w-4'><path d='M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'></path><path d='M16 3.128a4 4 0 0 1 0 7.744'></path><path d='M22 21v-2a4 4 0 0 0-3-3.87'></path><circle cx='9' cy='7' r='4'></circle></svg>"
       }
     ]

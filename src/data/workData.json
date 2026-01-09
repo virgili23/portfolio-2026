@@ -1,46 +1,44 @@
 [
   {
-    "title": "Project 1",
-    "link": "https://google.com",
-    "github": "https://google.com",
-    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1600&auto=format&fit=crop",
-    "tags": ["Wordpress", "Shopify", "tag 3"],
-    "description": "A scalable component library powering marketing and app surfaces."
+    "title": "Elite Team Realty",
+    "link": "https://elite-team-realty.com/",
+    "image": "./public/assets/img/sites/etr.jpg",
+    "tags": ["CMS", "Front-End", "SCSS", "Javascript", "Alpine.js"],
+    "description": "Developed reusable front-end components using SCSS and JavaScript, including interactive UI elements."
   },
   {
-    "title": "Project 2",
-    "link": "https://google.com",
-    "image": "https://images.unsplash.com/photo-1642615835477-d303d7dc9ee9?w=1080&q=80",
-    "tags": ["Wordpress", "Shopify", "tag 3"],
-    "description": "High-performance site with motion, SEO foundations, and analytics."
+    "title": "Liacouras Center",
+    "link": "https://www.liacourascenter.com/",
+    "image": "./public/assets/img/sites/liacouras.jpg",
+    "tags": ["CMS", "Front-End", "Responsive", "Event Listings"],
+    "description": "Implemented responsive event listing and event detail templates supporting high-volume event content."
   },
   {
-    "title": "Project 3",
-    "link": "https://google.com",
-    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
-    "tags": ["Wordpress", "Email Development", "tag 3"],
-    "description": "High-performance site with motion, SEO foundations, and analytics."
+    "title": "Palace Stamford Theatre",
+    "link": "https://www.palacestamford.org/",
+    "image": "./public/assets/img/sites/palacestamford.jpg",
+    "tags": ["CMS", "Front-End", "Responsive", "Performance"],
+    "description": "Built reusable UI components with performance-conscious front-end delivery."
   },
   {
-    "title": "Project 1",
-    "link": "https://google.com",
-    "github": "https://google.com",
-    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1600&auto=format&fit=crop",
-    "tags": ["Wordpress", "Shopify", "tag 3"],
-    "description": "A scalable component library powering marketing and app surfaces."
+    "title": "Allen County War Coliseum",
+    "link": "https://www.memorialcoliseum.com/",
+    "image": "./public/assets/img/sites/memorialcoliseum.jpg",
+    "tags": ["CMS", "Front-End", "Responsive", "Architecture"],
+    "description": "Implemented maintainable CMS templates focused on accessibility and layout consistency."
   },
   {
-    "title": "Project 2",
-    "link": "https://google.com",
-    "image": "https://images.unsplash.com/photo-1642615835477-d303d7dc9ee9?w=1080&q=80",
-    "tags": ["Wordpress", "Shopify", "tag 3"],
-    "description": "High-performance site with motion, SEO foundations, and analytics."
+    "title": "Mullins Center",
+    "link": "https://www.thesonnentag.com/",
+    "image": "./public/assets/img/sites/mullins.jpg",
+    "tags": ["CMS", "Front-End", "Responsive", "Accessibility"],
+    "description": "Delivered accessible, responsive layouts within a legacy CMS environment."
   },
   {
-    "title": "Project 3",
-    "link": "https://google.com",
-    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop",
-    "tags": ["Wordpress", "Email Development", "tag 3"],
-    "description": "High-performance site with motion, SEO foundations, and analytics."
+    "title": "The Sonnentag",
+    "link": "https://www.thesonnentag.com/",
+    "image": "./public/assets/img/sites/sonnentag.jpg",
+    "tags": ["CMS", "Front-End", "Responsive", "SCSS"],
+    "description": "Built a CMS-driven venue website using modular SCSS and reusable components to support venue-specific layouts and event promotion."
   }
 ]

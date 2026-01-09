@@ -5,6 +5,10 @@ export default function featuredSection() {
 
   //   console.log(workData);
 
+  // In work section, add a
+  // "github": '{gh repo link}'
+  // If it's a personal project
+
   workSection.innerHTML = workData
     .map(
       (data) => `
@@ -23,7 +27,7 @@ export default function featuredSection() {
                 />
             </a>
             <div class="s-work__desc py-5">
-                <div class="flex items-center gap-2">
+                <div class="flex items-center flex-wrap gap-2">
                 ${data.tags
                   .map(
                     (tag) =>
