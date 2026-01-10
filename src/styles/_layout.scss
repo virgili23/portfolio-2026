@@ -94,6 +94,7 @@ $btn-offset: 6px;
     width: 100%;
     height: 100%;
     z-index: -1;
+    // border: 2px solid #000;
   }
   &:hover,
   &:focus {
@@ -149,4 +150,16 @@ $btn-offset: 6px;
       left: 0;
     }
   }
+}
+
+// Lazy-load
+section {
+  position: relative;
+  transition: all linear 400ms;
+  top: 50px;
+  opacity: 0;
+}
+.section-loaded {
+  opacity: 1;
+  top: 0;
 }

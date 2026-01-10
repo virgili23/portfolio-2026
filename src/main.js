@@ -3,6 +3,7 @@ import "./styles/app.scss";
 import featuredSection from "./featuredSection";
 import workSection from "./workSection";
 import scrollSpy from "./scrollSpy";
+import lazyLoad from "./lazyLoad";
 
 const btn = document.querySelector("#nav-toggle");
 
@@ -39,4 +40,5 @@ document.addEventListener("DOMContentLoaded", () => {
   workSection();
   setYear();
   scrollSpy();
+  lazyLoad();
 });
