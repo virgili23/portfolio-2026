@@ -24,8 +24,11 @@ export default function featuredSection() {
             >
                 <img
                     src="${data.image}"
-                    alt="3D render"
+                    alt="thumbnail"
                     class="w-full h-full object-cover scale-[1.01] transition duration-400 group-hover:scale-[1.03] group-hover:grayscale-90"
+                    loading="lazy"
+                    width="456"
+                    height="456"
                 />
             </a>
             <div class="s-work__desc flex flex-col grow py-5">

@@ -31,7 +31,11 @@ export default function featuredSection() {
             src="${data.image}"
             alt="thumbnail"
             align="top"
-            class="w-full h-full object-cover scale-[1.01] transition duration-400 group-hover:scale-[1.03] group-hover:grayscale-90"/>
+            class="w-full h-full object-cover scale-[1.01] transition duration-400 group-hover:scale-[1.03] group-hover:grayscale-90"
+            loading="lazy"
+            width="956"
+            height="716"
+            />
           </a>
           <p class="text-zinc-600 leading-relaxed mt-6 mb-6">
             <b class="text-black">Tech Used:</b> 
