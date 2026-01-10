@@ -155,11 +155,10 @@ $btn-offset: 6px;
 // Lazy-load
 section {
   position: relative;
-  transition: all linear 400ms;
-  top: 50px;
+  transition: opacity linear 400ms;
+  will-change: opacity;
   opacity: 0;
 }
 .section-loaded {
   opacity: 1;
-  top: 0;
 }
