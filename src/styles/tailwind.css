@@ -43,6 +43,18 @@
 
 /* Base Styles */
 @layer base {
+  body {
+    font-family: "Inter", sans-serif;
+  }
+  p,
+  b,
+  i,
+  a,
+  span,
+  textarea {
+    font-family: "Inter", sans-serif;
+  }
+
   h1 {
     @apply text-4xl md:text-5xl font-bold;
     font-family: "Space Grotesk", sans-serif;
@@ -85,21 +97,13 @@
   }
 
   .nav-link {
+    font-family: "Space Grotesk", sans-serif;
     @apply relative block text-xl font-semibold text-zinc-500 transition-all duration-200;
   }
 
   .footer-social-link {
     @apply inline-flex h-9 w-9 items-center justify-center transition-all duration-200 rounded-full border-2 border-zinc-300 bg-white text-zinc-700 hover:text-zinc-900 dark:border-white dark:bg-black dark:text-white dark:hover:text-black dark:hover:bg-white;
   }
-}
-
-p,
-b,
-i,
-a,
-span,
-textarea {
-  font-family: "Inter", sans-serif;
 }
 
 .s-featured:nth-child(2) .s-featured__description {
