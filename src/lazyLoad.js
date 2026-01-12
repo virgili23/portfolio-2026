@@ -12,7 +12,7 @@ export default function lazyLoad() {
     },
     {
       threshold: 0,
-      rootMargin: "50px 0px 200px 0px",
+      rootMargin: "-100px 0px -200px 0px",
     }
   );
 

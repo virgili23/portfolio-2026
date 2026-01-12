@@ -1,40 +1,105 @@
 @import "tailwindcss";
 
-.btn {
-  @apply relative z-10 bg-black text-white flex gap-x-2 justify-center items-center px-4 py-2 text-sm text-nowrap font-medium leading-none;
+/* Fonts */
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/inter.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
 }
 
-.btn-large {
-  @apply px-6 py-3 text-xl font-semibold;
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/inter-italic.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
 }
 
-.btn-secondary {
-  @apply duration-200 bg-transparent text-black border-2 border-transparent transition-colors;
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/assets/fonts/space-grotesk.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
 }
 
-.nav-link {
-  @apply relative block text-xl font-semibold text-zinc-500 transition-all duration-200;
+@font-face {
+  font-family: "DM Serif Display";
+  src: url("/assets/fonts/dm-serif-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
-.footer-social-link {
-  @apply inline-flex h-9 w-9 items-center justify-center transition-all duration-200 rounded-full border-2 border-zinc-300 bg-white text-zinc-700 hover:text-zinc-900 dark:border-white dark:bg-black dark:text-white dark:hover:text-black dark:hover:bg-white;
+@font-face {
+  font-family: "DM Serif Display";
+  src: url("/assets/fonts/dm-serif-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
 
-h1 {
-  @apply text-4xl md:text-5xl font-bold;
-}
-h2 {
-  @apply text-3xl md:text-4xl font-bold;
-}
-h3 {
-  @apply text-2xl md:text-3xl font-bold;
-}
-h4 {
-  @apply text-lg md:text-xl font-bold;
+/* Base Styles */
+@layer base {
+  h1 {
+    @apply text-4xl md:text-5xl font-bold;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  h2 {
+    @apply text-3xl md:text-4xl font-bold;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  h3 {
+    @apply text-2xl md:text-3xl font-bold;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  h4 {
+    @apply text-lg md:text-xl font-bold;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  h5 {
+    @apply text-2xl md:text-3xl font-semibold italic tracking-wider;
+    font-family: "DM Serif Display", serif;
+  }
+  h6 {
+    font-family: "DM Serif Display", serif;
+  }
+  body {
+    font-family: "Inter", system-ui, sans-serif;
+  }
 }
 
-h5 {
-  @apply text-2xl md:text-3xl font-semibold italic tracking-wider;
+@layer components {
+  .btn {
+    @apply relative z-10 bg-black text-white flex gap-x-2 justify-center items-center px-4 py-2 text-sm text-nowrap font-medium leading-none;
+  }
+
+  .btn-large {
+    @apply px-6 py-3 text-xl font-semibold;
+  }
+
+  .btn-secondary {
+    @apply duration-200 bg-transparent text-black border-2 border-transparent transition-colors;
+  }
+
+  .nav-link {
+    @apply relative block text-xl font-semibold text-zinc-500 transition-all duration-200;
+  }
+
+  .footer-social-link {
+    @apply inline-flex h-9 w-9 items-center justify-center transition-all duration-200 rounded-full border-2 border-zinc-300 bg-white text-zinc-700 hover:text-zinc-900 dark:border-white dark:bg-black dark:text-white dark:hover:text-black dark:hover:bg-white;
+  }
+}
+
+p,
+b,
+i,
+a,
+span,
+textarea {
+  font-family: "Inter", sans-serif;
 }
 
 .s-featured:nth-child(2) .s-featured__description {
