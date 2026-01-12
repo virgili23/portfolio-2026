@@ -11,7 +11,7 @@ export default function lazyLoad() {
       });
     },
     {
-      threshold: 0.15,
+      threshold: 0.07,
     }
   );
 
