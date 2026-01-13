@@ -46,14 +46,6 @@
   body {
     font-family: "Inter", sans-serif;
   }
-  /* p,
-  b,
-  i,
-  a,
-  span,
-  textarea {
-    font-family: "Inter", sans-serif;
-  } */
 
   h1 {
     @apply text-4xl md:text-5xl font-bold;
@@ -82,11 +74,12 @@
 
 @layer components {
   .btn {
-    font-family: "Inter", sans-serif;
-    @apply relative z-10 bg-black text-white flex gap-x-2 justify-center items-center px-4 py-2 text-sm text-nowrap font-medium leading-none;
+    /* font-family: "Inter", sans-serif; */
+    font-family: "Space Grotesk", sans-serif;
+    @apply relative z-10 bg-black text-white flex gap-x-2 justify-center items-center px-4 py-2 text-sm text-nowrap font-semibold leading-none;
   }
   .btn span {
-    @apply font-medium;
+    @apply font-semibold;
   }
 
   .btn-large {

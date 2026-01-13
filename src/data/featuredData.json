@@ -1,37 +1,5 @@
 [
   {
-    "title": "StateFarm Center: Ticketing &amp; Event CMS Platform",
-    "link": "https://www.statefarmcenter.com/",
-    "image": "./assets/img/sites/statefarm-featured.jpg",
-    "tags": [
-      "Front-End Development",
-      "CMS",
-      "A11y / Accessibility",
-      "Performance",
-      "Modular CSS",
-      "Legacy Systems"
-    ],
-    "tech": ["PHP", "SCSS / CSS", "JavaScript", "Google Maps API"],
-    "description": "Sole front-end engineer responsible for building a CMS-driven marketing and ticketing platform for a large entertainment venue. Owned front-end development from design handoff through responsive implementation, accessibility improvements, and cross-browser QA within a legacy PHP/CodeIgniter environment.<br/><br/>Extended and adapted a modular SCSS architecture to support venue-specific layouts, branding requirements, and complex homepage and event presentation patterns.",
-    "contributions": [
-      "Led end-to-end front-end development across multiple production sprints",
-      "Designed modular, reusable SCSS components and layout systems",
-      "Built responsive event listing, event detail, and homepage templates",
-      "Implemented accessibility and cross-browser improvements within a legacy CMS"
-    ],
-    "outcome": [
-      "Delivered a production-ready CMS and ticketing platform",
-      "Improved maintainability, accessibility, and responsive consistency",
-      "Reduced design-to-development friction through structured handoff"
-    ],
-    "role": [
-      {
-        "position": "Front-End Engineer",
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-lucide='users' class='lucide lucide-users h-4 w-4'><path d='M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'></path><path d='M16 3.128a4 4 0 0 1 0 7.744'></path><path d='M22 21v-2a4 4 0 0 0-3-3.87'></path><circle cx='9' cy='7' r='4'></circle></svg>"
-      }
-    ]
-  },
-  {
     "title": "Metro HC Air Services: SEO-Driven WordPress CMS",
     "link": "https://www.metrohc.com/",
     "image": "./assets/img/sites/mhc-featured.jpg",
@@ -67,6 +35,38 @@
     "role": [
       {
         "position": "Front-End / Wordpress Developer",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-lucide='users' class='lucide lucide-users h-4 w-4'><path d='M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'></path><path d='M16 3.128a4 4 0 0 1 0 7.744'></path><path d='M22 21v-2a4 4 0 0 0-3-3.87'></path><circle cx='9' cy='7' r='4'></circle></svg>"
+      }
+    ]
+  },
+  {
+    "title": "StateFarm Center: Ticketing &amp; Event CMS Platform",
+    "link": "https://www.statefarmcenter.com/",
+    "image": "./assets/img/sites/statefarm-featured.jpg",
+    "tags": [
+      "Front-End Development",
+      "CMS",
+      "A11y / Accessibility",
+      "Performance",
+      "Modular CSS",
+      "Legacy Systems"
+    ],
+    "tech": ["PHP", "SCSS / CSS", "JavaScript", "Google Maps API"],
+    "description": "Sole front-end engineer responsible for building a CMS-driven marketing and ticketing platform for a large entertainment venue. Owned front-end development from design handoff through responsive implementation, accessibility improvements, and cross-browser QA within a legacy PHP/CodeIgniter environment.<br/><br/>Extended and adapted a modular SCSS architecture to support venue-specific layouts, branding requirements, and complex homepage and event presentation patterns.",
+    "contributions": [
+      "Led end-to-end front-end development across multiple production sprints",
+      "Designed modular, reusable SCSS components and layout systems",
+      "Built responsive event listing, event detail, and homepage templates",
+      "Implemented accessibility and cross-browser improvements within a legacy CMS"
+    ],
+    "outcome": [
+      "Delivered a production-ready CMS and ticketing platform",
+      "Improved maintainability, accessibility, and responsive consistency",
+      "Reduced design-to-development friction through structured handoff"
+    ],
+    "role": [
+      {
+        "position": "Front-End Engineer",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-lucide='users' class='lucide lucide-users h-4 w-4'><path d='M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'></path><path d='M16 3.128a4 4 0 0 1 0 7.744'></path><path d='M22 21v-2a4 4 0 0 0-3-3.87'></path><circle cx='9' cy='7' r='4'></circle></svg>"
       }
     ]
