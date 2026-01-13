@@ -46,14 +46,14 @@
   body {
     font-family: "Inter", sans-serif;
   }
-  p,
+  /* p,
   b,
   i,
   a,
   span,
   textarea {
     font-family: "Inter", sans-serif;
-  }
+  } */
 
   h1 {
     @apply text-4xl md:text-5xl font-bold;
@@ -78,14 +78,15 @@
   h6 {
     font-family: "DM Serif Display", serif;
   }
-  body {
-    font-family: "Inter", system-ui, sans-serif;
-  }
 }
 
 @layer components {
   .btn {
+    font-family: "Inter", sans-serif;
     @apply relative z-10 bg-black text-white flex gap-x-2 justify-center items-center px-4 py-2 text-sm text-nowrap font-medium leading-none;
+  }
+  .btn span {
+    @apply font-medium;
   }
 
   .btn-large {
