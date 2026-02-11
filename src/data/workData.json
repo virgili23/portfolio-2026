@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Elite Team Realty",
     "link": "https://elite-team-realty.com/",
     "image": "./assets/img/sites/etr.jpg",
@@ -7,6 +8,7 @@
     "description": "Developed reusable front-end components using SCSS and JavaScript, including interactive UI elements."
   },
   {
+    "id": 2,
     "title": "Liacouras Center",
     "link": "https://www.liacourascenter.com/",
     "image": "./assets/img/sites/liacouras.jpg",
@@ -14,6 +16,7 @@
     "description": "Implemented responsive event listing and event detail templates supporting high-volume event content."
   },
   {
+    "id": 3,
     "title": "Palace Theatre",
     "link": "https://www.palacestamford.org/",
     "image": "./assets/img/sites/palacestamford.jpg",
@@ -21,6 +24,7 @@
     "description": "Built reusable UI components with performance-conscious front-end delivery."
   },
   {
+    "id": 4,
     "title": "Allen County Memorial Coliseum",
     "link": "https://www.memorialcoliseum.com/",
     "image": "./assets/img/sites/memorialcoliseum.jpg",
@@ -28,6 +32,7 @@
     "description": "Implemented maintainable CMS templates focused on accessibility and layout consistency."
   },
   {
+    "id": 5,
     "title": "Mullins Center",
     "link": "https://www.thesonnentag.com/",
     "image": "./assets/img/sites/mullins.jpg",
@@ -35,6 +40,7 @@
     "description": "Delivered accessible, responsive layouts within a legacy CMS environment."
   },
   {
+    "id": 6,
     "title": "The Sonnentag",
     "link": "https://www.thesonnentag.com/",
     "image": "./assets/img/sites/sonnentag.jpg",

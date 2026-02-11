@@ -1,5 +1,6 @@
 export default function lazyLoad() {
   const sections = document.querySelectorAll("section");
+  if (!sections.length) return () => {};
 
   const observer = new IntersectionObserver(
     (entries, observer) => {
@@ -13,8 +14,10 @@ export default function lazyLoad() {
     {
       threshold: 0,
       rootMargin: "-100px 0px -200px 0px",
-    }
+    },
   );
 
   sections.forEach((section) => observer.observe(section));
+
+  return () => observer.disconnect();
 }
